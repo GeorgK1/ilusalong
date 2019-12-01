@@ -22,16 +22,9 @@
         <div class="slide slide1"><img src="https://imgur.com/NQkCmgh.jpg"></div>
         </div>
       
-
-    
-  
- 
-    
-
-
     <div id="Teenused">
         <h1>Teenused</h1>
- <div class="overlay"></div>
+ 
         <div class="slider-2">
             <div><img src="https://i.imgur.com/MmuO0Ma.jpg" id="keelkuuned" class="image"></div>
             <div><img src="https://i.imgur.com/qsIz2yS.jpg"  id="jumestus"  class="image"></div>
@@ -48,6 +41,18 @@
             
         </div>
     </div>
+
+         <div class="uudised">
+        <h1>Uudised</h1>
+
+        
+        <?php wp_get_archives('title_li=&type=postbypost&limit=10'); ?>
+
+
+
+        </div>
+
+
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

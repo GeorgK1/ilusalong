@@ -96,7 +96,9 @@ header a:hover {
     background-color: rgb(88, 86, 86, .7);
 }
 
-
+#Teenused{
+    height: 100vh;
+}
 
 #Teenused>h1 {
     font-family: 'Poppins';
