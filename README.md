@@ -1,3 +1,3 @@
-# MelonI-Ilusalong
+# Meloni-Ilusalong
 
 Tegemist on Meloni Ilusalongi veebilehe wordpressi lähtekood
