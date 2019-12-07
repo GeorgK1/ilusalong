@@ -1,3 +1,3 @@
 # Meloni-Ilusalong
 
-Tegemist on Meloni Ilusalongi veebilehe wordpressi lähtekood
+Tegemist on Meloni Ilusalongi veebilehe wordpressi lähtekoodiga
