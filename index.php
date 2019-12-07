@@ -26,30 +26,19 @@
         <h1>Teenused</h1>
  
         <div class="slider-2">
-            <div><img src="https://i.imgur.com/MmuO0Ma.jpg" id="keelkuuned" class="image"></div>
-            <div><img src="https://i.imgur.com/qsIz2yS.jpg"  id="jumestus"  class="image"></div>
-            <div><img src="https://i.imgur.com/s0k1g0X.jpg" id="juuksuriteenused" class="image"></div>
-            <div><img src="https://i.imgur.com/ItT0fwH.jpg"  id="kosmeetik" class="image"></div>
-            <div><img src="https://i.imgur.com/LsWwsN5.jpg"  id="kulripsmed" class="image"></div>
-            <div><img src="https://i.imgur.com/homKrsS.jpg" id="manikuur" class="image"></div>
-            <div><img src="https://i.imgur.com/F2FwGmt.jpg"  class="image"></div>
-            <div><img src="https://i.imgur.com/Oru9058.jpg" id="olaplex" class="image"></div>
-            <div><img src="https://i.imgur.com/iAcGI2M.jpg" id="ripsmepikendus" class="image"></div>
-            <div><img src="https://i.imgur.com/tavIl68.jpg" id="depilleerimine"class="image"></div>
-            <div><img src="https://i.imgur.com/hGbxuey.jpg" id="massaaz" class="image"></div>
-           
+ 
+        <?php
+            echo do_shortcode('[smartslider3 slider=4]');
+        ?>
             
         </div>
     </div>
 
          <div class="uudised">
-        <h1>Uudised</h1>
-
-        
-        <?php wp_get_archives('title_li=&type=postbypost&limit=10'); ?>
-
-
-
+        <h1 id="uudised">Uudised</h1>
+          
+           <?php echo do_shortcode("[pt_view id=fa7cfbcf0j]"); ?>
+                          
         </div>
 
 

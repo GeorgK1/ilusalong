@@ -1,5 +1,6 @@
 <footer id="kontaktid">
 
+<div class="footer-sisu">
 <h2>Kontakt </h2>
 <p>+372 56851470</p>
 <p>+358 40 518 9461</p>
@@ -9,9 +10,8 @@
 
 <h2>Aadress </h2>
 <p>Lootsi 14a, Tallinn</p>
+</div>
 
-
-<p id="copyright"> © Copyright - Meloni Ilusalong</p>
 
 <h2 id="asukoht">Asukoht kaardil</h2>
 
@@ -22,6 +22,7 @@
     </script>
 </div>
 
+<p id="copyright"> © Copyright - Meloni Ilusalong</p>
 </footer>
 
 <?php wp_footer(); ?>

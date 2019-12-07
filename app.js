@@ -1,19 +1,6 @@
 
         
-        $(document).ready(function() {
-            $('.slider-2').slick({
-                infinite: false,
-                arrows: true,
-                dots: true,
-                slidesToShow: 4,
-                slidesToScroll: 2,
-                mobileFirst: true,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                infinite: true,
-            })
-        })
-       
+   
    
 
 
@@ -26,11 +13,11 @@
           if (prevScrollpos > currentScrollPos) {
            $(".menu").css({"height": "25%"});
            $("#logo").css({"height": "30%"});
-           $("li, a").css({"font-size": "40px"})
+           $(".list > a").css({"font-size": "40px"})
           } else {
            $(".menu").height(50); 
            $("#logo").css({"height": "20%"});
-           $("li, a").css({"font-size": "28px"})
+           $(".list > a").css({"font-size": "28px"})
           }
           prevScrollpos = currentScrollPos;
         }
