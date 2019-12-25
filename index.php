@@ -49,5 +49,3 @@
 </html>
 
    <?php get_footer();
-
-?>
