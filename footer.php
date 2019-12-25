@@ -3,22 +3,22 @@
 <div class="footer">
 <div class="footer-content">
 <div class="footer-section contacts">
-<h1 class="kontakt"><span>Kontakt :</span></h1>
+<h2 class="kontakt"><span>Kontakt :</span></h2>
 
 <span><i class="fas fa-phone"></i> &nbsp; +372 56851470</span>
 <span><i class="fas fa-envelope"></i> &nbsp; info@meloniilusalong.ee</span>
 
-<h1 class="socials"><span>Sotsiaalmeedia :</span></h1>
+<h2 class="socials"><span>Sotsiaalmeedia :</span></h2>
 <a href="#"><i class="fab fa-facebook"></i></a>
 <a href="#"><i class="fab fa-instagram"></i></a>
 
-<h1 class="lahtiolekuajad"><span>Lahtioleku ajad :</span></h1>
+<h2 class="lahtiolekuajad"><span>Lahtioleku ajad :</span></h2>
 <span><i class="fas fa-business-time"></i> &nbsp; E-L: 10.00 – 18.00 <br>
 P: Kokkuleppel</span>
 </div>
 
 <div class="footer-section quick-links">
-<h1 class="Kiirvaade"><span>Kiirvaade :</span></h1>
+<h2 class="Kiirvaade"><span>Kiirvaade :</span></h2>
     <ul>
         <a href="#">Avaleht</a>
         <a href="#">Meist</a>
@@ -30,7 +30,7 @@ P: Kokkuleppel</span>
 </div>
 
 <div class="footer-section map">
-<h1 class="asukoht"><span> Meie asukoht :</span></h1>
+<h2 class="asukoht"><span> Meie asukoht :</span></h2>
 <span><i class="fas fa-map-marker-alt"></i> &nbsp; Lootsi 14a, Tallinn</span>
 <div id ="map" >  
     <script async defer

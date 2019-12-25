@@ -108,8 +108,20 @@ header a:hover {
     height: 100vh;
 }
 
+#post-sisu{
+    font-family: Poppins;
+    min-height: 45%;
+   
+}
+
+#pealkiri{
+    font-family: Poppins;
+    text-transform: capitalize;
+    padding-top: 30%;
+  
+}
 #Teenused>h1 {
-    font-family: 'Poppins';
+    font-family: Poppins;
     text-align: center;
     text-decoration: underline;
     font-size: 48px;
@@ -118,21 +130,77 @@ header a:hover {
     background-color: white;
 }
 
+.page-sisu{
+    font-family: Poppins;
+    min-height: 100%;
+}
+/*Kogu avalehe disain*/
+section{
+    display: grid;
+    
+}
+
+
+
+
+/*Avalehe tsitaadi stiil*/
+.wrapper{
+    
+    margin-top: 15%;
+    margin-left: 13%;
+    font-size: 36px;
+    padding: 55px;
+    width: 75%;
+    height: 40%;
+    background: #D79F9F;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 50;
+}
+.intro{
+    position: relative;
+    font-family: Poppins;
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.intro input{
+    font-family: Poppins;
+    font-size: 20px;
+    background: rgb(199, 146, 146);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.intro input:hover{
+    transform: scale(1.2);
+}
+
 /*Posituste stiil*/
-.pt-cv-title{
-    font-family: Poppins !important;
+.uudised{
+    
+    min-height: 100%;
+    color: black;
+    font-family: Poppins;
     text-transform: capitalize;
+    
+}
+.uudised a {
+    color: black; 
 }
 
-.pt-cv-content{
-    font-family: Poppins;
+.uudised ul{
+    
+   margin-bottom: 25px;
+   display: grid;
+   grid-template-columns: 788px auto;
+   justify-content: center;
+   align-content: center;
 }
 
-.post-sisu{
-    position: absolute;
-    height: 100vh;
-    font-family: Poppins;
-}
+
+
 /*Footer */
 .footer{
     background: #303036;
@@ -142,19 +210,19 @@ header a:hover {
 }
 
 .footer .footer-content{
-    border: 1px solid red;
+    
     height: 350px;
     display: flex;
 }
 
 .footer .footer-content .footer-section {
     flex: 1;
-    border: 1px solid white;
+    
     padding: 25px;
 }
 
 
-.footer .footer-content h1{
+.footer .footer-content h2{
     color: white;
     font-family: Poppins;
     padding-bottom: 10px;
@@ -172,7 +240,7 @@ header a:hover {
 }
 
 .footer .footer-content  .contacts a{
-    border: 1px solid gray;
+    
     color: white;
     width: 45px;
     height: 41px;
@@ -180,7 +248,7 @@ header a:hover {
     margin-right: 5px;
     text-align: center;
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 1.4em;
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -193,7 +261,7 @@ header a:hover {
     display: block;
     margin-bottom: 10px;
     padding-top: 1px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: white;
     font-family: Poppins;
     
