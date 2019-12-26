@@ -53,18 +53,12 @@ header{
    
 }
 
-#uudised{
-    font-family: Poppins;
-    text-align: center;
-    padding: 5%;
-    margin: 10px;
-    text-decoration: underline;
-}
+
 
 /*menüü*/
 
 li a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     padding: 20px 26px;
     font-size: 40px;
@@ -87,7 +81,7 @@ li a:hover {
     width: 100%; /* Full width */
     height: 25%;
     min-height: 8vh;
-    background-color: rgb( 0, 0, 0, .5);
+    background-color: rgb( 255, 255, 255, .5);
     transition: 0.4s;
     z-index: 999;
 }
@@ -104,9 +98,6 @@ header a:hover {
     background-color: rgb(88, 86, 86, .7);
 }
 
-#Teenused{
-    height: 100vh;
-}
 
 #post-sisu{
     font-family: Poppins;
@@ -120,15 +111,7 @@ header a:hover {
     padding-top: 30%;
   
 }
-#Teenused>h1 {
-    font-family: Poppins;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 48px;
-    padding-top: 8%;
-    padding-bottom: 3%;
-    background-color: white;
-}
+
 
 .page-sisu{
     font-family: Poppins;
@@ -137,10 +120,33 @@ header a:hover {
 /*Kogu avalehe disain*/
 section{
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
 }
 
+/*Posituste stiil*/
+.uudised, 
+.pakkumised{
+    
+    min-height: 100%;
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.uudised a,
+.pakkumised a {
+    color: black; 
+    font-size: 20px;
+}   
 
+.broneerimine{
+    font-family: Poppins;
+}
 
 
 /*Avalehe tsitaadi stiil*/
@@ -149,7 +155,7 @@ section{
     margin-top: 15%;
     margin-left: 13%;
     font-size: 36px;
-    padding: 55px;
+    padding: 80px;
     width: 75%;
     height: 40%;
     background: #D79F9F;
@@ -177,32 +183,11 @@ section{
     transform: scale(1.2);
 }
 
-/*Posituste stiil*/
-.uudised{
-    
-    min-height: 100%;
-    color: black;
-    font-family: Poppins;
-    text-transform: capitalize;
-    
-}
-.uudised a {
-    color: black; 
-}
-
-.uudised ul{
-    
-   margin-bottom: 25px;
-   display: grid;
-   grid-template-columns: 788px auto;
-   justify-content: center;
-   align-content: center;
-}
-
 
 
 /*Footer */
 .footer{
+    
     background: #303036;
     color: #d3d3d3;
     height: 375px;
@@ -217,7 +202,6 @@ section{
 
 .footer .footer-content .footer-section {
     flex: 1;
-    
     padding: 25px;
 }
 

@@ -10,4 +10,17 @@ function melon_files() {
 
 add_action('wp_enqueue_scripts', 'melon_files');
 
+function ourWidgetsInit(){
+    register_sidebar( array (
+    'name' => 'Sidebar',
+    'id' => 'sidebar1',
+    'before_widget' => '<div class = "widgetarea">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+));
+}
+
+add_action('widgets_init', 'ourWidgetsInit');
+
 ?>

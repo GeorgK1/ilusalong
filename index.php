@@ -12,18 +12,30 @@
 
 </head>
 <body>
-    <section>
-    <div class="wrapper">
+
+
+<div class="wrapper">
     <div class="intro">
-        <p>“Meloni Ilusalongi omaniku unistus on pidada salongi, kus klient iga tunneb ennast tõeliselt hästi”</p>
+        <p>“Meloni Ilusalongi omaniku unistus on pidada salongi, kus iga klient  tunneb ennast tõeliselt hästi”</p>
         <input type="button" onclick="location.href='http://meloni-ilusalong.local/meist/';" value="Loe meist lähemalt..." />
     </div>
     </div>
     </div>
+
+    <section>
+        <div class="pakkumised">
+        <h2>Pakkumised</h2>
+        <?php echo do_shortcode('[do_widget id=recent-posts-widget-with-thumbnails-3 title=false]'); ?>
+        </div>
          <div class="uudised">
-        <h1 id="uudised">Uudised</h1>        
-        <?php dynamic_sidebar('smartslider_area_1'); ?>
-    </div>
+        <h2>Uudised</h2>        
+        <?php echo do_shortcode('[do_widget id=recent-posts-widget-with-thumbnails-2 title=false]'); ?>
+        </div>
+        <div class="broneerimine">
+        <h2>Broneerimine</h2>
+        
+        <?php echo do_shortcode('[ninja_form id=2 title=false]'); ?>
+        </div>
     </section>
 
 

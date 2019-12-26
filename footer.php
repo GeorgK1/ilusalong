@@ -32,11 +32,7 @@ P: Kokkuleppel</span>
 <div class="footer-section map">
 <h2 class="asukoht"><span> Meie asukoht :</span></h2>
 <span><i class="fas fa-map-marker-alt"></i> &nbsp; Lootsi 14a, Tallinn</span>
-<div id ="map" >  
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqPj6vzOVPVDfuiHFfItPFIjBRyO0Sgk&callback=initMap">
-    </script>
-</div>
+<?php echo do_shortcode('[su_gmap width="580" height="200" address="Meloni Ilusalong" title="Kaart"]'); ?>
 
 </div>
 </div>

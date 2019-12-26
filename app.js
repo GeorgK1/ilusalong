@@ -21,7 +21,8 @@
           }
           prevScrollpos = currentScrollPos;
         }
-
+        
+        $("#nf-field-11")
         
         // Initialize and add the map
         function initMap() {
