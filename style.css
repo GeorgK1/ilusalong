@@ -24,44 +24,13 @@ html, body {
 header{
     position: absolute;
 }
-
-.slide img{
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 85vh;
-    
-}
-
-
-.slider-2 {
-    width: 80%;
-    padding-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-/*teenuste image*/
-.image {
-    height: 420px;
-    width: 330px;
-    padding: 30px;
-    margin: 10px;
-    cursor: pointer;
-   
-}
-
-
-
 /*menüü*/
 
 li a {
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
     padding: 20px 26px;
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     transition: 0.4s;
     text-decoration: none;
@@ -70,6 +39,7 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+    color: #D79F9F;
 }
 
 
@@ -79,7 +49,7 @@ li a:hover {
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    height: 25%;
+    height: 20%;
     min-height: 8vh;
     background-color: rgb( 255, 255, 255, .5);
     transition: 0.4s;
@@ -90,13 +60,11 @@ ul img {
     position: fixed;
     height: 30%;
     margin-top: -5%;
-    transition: 0.4s;
+    transition: 0.1s;
     cursor: pointer;
 }
 
-header a:hover {
-    background-color: rgb(88, 86, 86, .7);
-}
+
 
 
 #post-sisu{
@@ -114,9 +82,60 @@ header a:hover {
 
 
 .page-sisu{
+    display: grid;
+    grid-template-columns: auto 50%;
+    
+    grid-template-areas: 'teenused' 'broneering';   
+                                                             
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+    padding-top: 15%;
     font-family: Poppins;
     min-height: 100%;
+    font-size: 18px;
+
 }
+
+.teenused{
+    grid-area: teenused;
+    
+    
+}
+
+form{
+    grid-area: broneering;
+}
+
+.su-spoiler-title{
+    font-size: 23px !important;
+    transition: 0.2s;
+}
+
+.su-spoiler-title:hover{
+    color: #D79F9F;
+}
+
+.navigation {
+    width:50%;
+    cursor: pointer;
+    background-color: #D79F9F;
+    
+   
+    font-family: Poppins;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.navigation:hover{
+    transform: scale(1.2);
+}
+
+
+    
+
+
 /*Kogu avalehe disain*/
 section{
     display: grid;
@@ -260,7 +279,7 @@ section{
 
 #map{
     position: relative;
-    height: 200px;
+    height: 100px;
     width: 100%;
     bottom: 0px;
 }

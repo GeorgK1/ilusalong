@@ -33,7 +33,7 @@
         </div>
         <div class="broneerimine">
         <h2>Broneerimine</h2>
-        
+        <p>Teenuste hinnakirja ja infot on võimalik leida <a href="http://meloni-ilusalong.local/teenused/">SIIT!</a></p>
         <?php echo do_shortcode('[ninja_form id=2 title=false]'); ?>
         </div>
     </section>

@@ -11,9 +11,9 @@
         window.onscroll = function() {
           var currentScrollPos = window.pageYOffset;
           if (prevScrollpos > currentScrollPos) {
-           $(".menu").css({"height": "25%"});
-           $("#logo").css({"height": "30%"});
-           $(".list > a").css({"font-size": "40px"})
+           $(".menu").css({"height": "20%"});
+           $("#logo").css({"height": "20%"});
+           $(".list > a").css({"font-size": "36px"})
           } else {
            $(".menu").height(50); 
            $("#logo").css({"height": "20%"});
@@ -22,7 +22,7 @@
           prevScrollpos = currentScrollPos;
         }
         
-        $("#nf-field-11")
+     
         
         // Initialize and add the map
         function initMap() {
