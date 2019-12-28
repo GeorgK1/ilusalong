@@ -20,12 +20,10 @@ P: Kokkuleppel</span>
 <div class="footer-section quick-links">
 <h2 class="Kiirvaade"><span>Kiirvaade :</span></h2>
     <ul>
-        <a href="#">Avaleht</a>
-        <a href="#">Meist</a>
-        <a href="#">Teenused</a>
-        <a href="#">Uudised</a>
-        <a href="#">Broneerimine</a>
-        <a href="#">Kontakt</a>
+        <a href="http://meloni-ilusalong.local/">Avaleht</a>
+        <a href="http://meloni-ilusalong.local/meist/">Meist</a>
+        <a href="http://meloni-ilusalong.local/teenused">Teenused</a>
+        <a href="http://meloni-ilusalong.local/kontaktid-ja-asukoht/">Kontaktid ja asukoht</a>
     </ul>
 </div>
 
