@@ -127,7 +127,6 @@ form{
     width:20%;
     cursor: pointer;
     background-color: #D79F9F;
-    
     margin-left: 200px;
     top: 200px;
     font-family: Poppins;
@@ -140,10 +139,17 @@ form{
     transform: scale(1.2);
 }
 
-
-    
-
-
+.galerii{
+    margin-left: 20%;
+    font-family: Poppins;
+    align-self: center;
+    padding: 30px;
+}
+#galerii{
+    margin-left: 24%;
+    font-size: 30px;
+    text-decoration: underline;
+}
 /*Kogu avalehe disain*/
 section{
     display: grid;
@@ -172,6 +178,7 @@ section{
 
 .broneerimine{
     font-family: Poppins;
+    
 }
 
 .pealkirjad{
