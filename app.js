@@ -6,7 +6,9 @@
 
 
  
-       
+       var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+
+       if(!isMobile){
        var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
           var currentScrollPos = window.pageYOffset;
@@ -21,7 +23,7 @@
           }
           prevScrollpos = currentScrollPos;
         }
-        
+      }
      
         
         // Initialize and add the map
@@ -40,3 +42,11 @@
           return false;
         });
       
+        function openNav() {
+          document.getElementById("menu").style.width = "300px";
+          document.getElementById("main").style.marginLeft = "300px";
+        }
+
+        function closeNav() {
+          document.getElementById("menu").style.width = "0";
+        }
