@@ -30,7 +30,7 @@ P: Kokkuleppel</span>
 <div class="footer-section map">
 <h2 class="asukoht"><span> Meie asukoht :</span></h2>
 <span><i class="fas fa-map-marker-alt"></i> &nbsp; Lootsi 14a, Tallinn</span>
-<?php echo do_shortcode('[su_gmap width="580" height="200" address="Lootsi 14-2" title="Kaart"]'); ?>
+<div class="map"><?php echo do_shortcode('[su_gmap width="580" height="100" address="Lootsi 14-2" title="Kaart"]'); ?></div>
 
 </div>
 </div>
