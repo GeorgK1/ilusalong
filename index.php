@@ -38,10 +38,9 @@
         </div>
     </section>
 
-    <div class="galerii">
-    <h2 id="galerii">Mõned näited meie töödest</h2>
-    <?php echo do_shortcode('[FinalTilesGallery id=1 ]'); ?>
-    
+
+   
+
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

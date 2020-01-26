@@ -9,8 +9,8 @@
 <span><i class="fas fa-envelope"></i> &nbsp; info@meloniilusalong.ee</span>
 
 <h2 class="socials"><span>Sotsiaalmeedia :</span></h2>
-<a href="#"><i class="fab fa-facebook"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="https://www.facebook.com/MeloniIlusalong/"><i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/meloniilusalong/?hl=en"><i class="fab fa-instagram"></i></a>
 
 <h2 class="lahtiolekuajad"><span>Lahtioleku ajad :</span></h2>
 <span><i class="fas fa-business-time"></i> &nbsp; E-L: 10.00 – 18.00 <br>

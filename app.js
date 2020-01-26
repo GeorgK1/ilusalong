@@ -17,13 +17,16 @@
            $("#logo").css({"height": "20%"});
            $(".list > a").css({"font-size": "36px"})
           } else {
-           $(".menu").height(50); 
+           
            $("#logo").css({"height": "20%"});
            $(".list > a").css({"font-size": "28px"})
           }
           prevScrollpos = currentScrollPos;
         }
       }
+     
+
+
      
         
         // Initialize and add the map
@@ -43,8 +46,8 @@
         });
       
         function openNav() {
-          document.getElementById("menu").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("menu").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "200px";
         }
 
         function closeNav() {

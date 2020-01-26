@@ -19,4 +19,4 @@
 </div>
  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<?php get_footer();?>
+<div class="page-footer"><?php get_footer();?></div>

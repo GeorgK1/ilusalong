@@ -26,26 +26,13 @@ header{
 }
 /*menüü*/
 
-li a {
-    color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
-    padding: 20px 26px;
-    font-size: 36px;
-    text-align: center;
-    transition: 0.4s;
-    text-decoration: none;
-    
-}
-
-li a:hover {
-    text-decoration: underline;
-    color: #D79F9F;
-}
 
 
-#menu {
+#menu
+ {
     overflow: hidden;
-    display: block;
+    
+    
     list-style-type: none;
     padding-top: 5%;
     position: fixed;
@@ -58,7 +45,26 @@ li a:hover {
     z-index: 999;
 }
 
-ul img {
+#menu a
+ {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 26px;
+    font-size: 36px;
+    text-align: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #D79F9F;
+}
+
+
+
+
+#logo {
     position: fixed;
     height: 20%;
     margin-top: -5%;
@@ -67,12 +73,10 @@ ul img {
 }
 
 
-
-
 #post-sisu{
     font-family: Poppins;
     min-height: 45%;
-   
+    
 }
 
 #pealkiri{
@@ -123,14 +127,14 @@ form{
 }
 
 .navigation {
-    grid-column: auto/auto;
-    grid-row: auto/auto;
+    
+   
     position: relative;
-    width:20%;
+    
     cursor: pointer;
     background-color: #D79F9F;
     margin-left: 200px;
-    top: 200px;
+    top: 250px;
     font-family: Poppins;
     font-size: 30px;
     transition: 0.2s;
@@ -146,6 +150,7 @@ form{
     font-family: Poppins;
     align-self: center;
     padding: 30px;
+    text-emphasis: none;
 }
 #galerii{
     margin-left: 24%;
@@ -160,7 +165,22 @@ section{
     justify-content: space-between;
     align-items: center;
     padding: 5%;
+    
 }
+
+.rpwwt-post-title{
+    text-transform: capitalize;
+}
+
+.rpwwt-widget{
+    padding: 0;
+}
+
+.wp-block-verse{
+    font-family: Poppins;
+    margin-left: 20px;
+}
+
 
 /*Posituste stiil*/
 .uudised, 
@@ -169,7 +189,7 @@ section{
     color: black;
     font-family: Poppins;
     font-size: 16px;
-    text-transform: capitalize;
+    
     text-decoration: none;
 }
 .uudised a,
@@ -178,9 +198,14 @@ section{
     font-size: 20px;
 }   
 
+.uudised h2, 
+.pakkumised h2{
+    padding-bottom: 10px;
+}
+
 .broneerimine{
     font-family: Poppins;
-    
+    text-transform: capitalize !important
 }
 
 .pealkirjad{
@@ -190,6 +215,7 @@ section{
     text-align: center;
     margin-top: 7%;
     font-size: 24px;
+    
 }
 
 #teenuste-pealkiri{
@@ -353,7 +379,8 @@ section{
         top: 0;
         z-index: 11;
       }
-    
+
+
       .galerii{
           display:none;
       }
@@ -388,7 +415,7 @@ section{
         width: 283px;
     }
     #menu{
-        background-color: #686868;     
+        background-color: #303036;     
         text-align: right;
         z-index: 100;
         height: 100%;
@@ -406,12 +433,12 @@ section{
     }
 
     #menu a {
-        
+        width: 100%;
         
         padding: 20px 8px 8px -100px;
         text-decoration: none;
         font-size: 30px;
-        color: white;
+        color: #D79F9F;
         display: flex;
         transition: 0.3s;
       }
@@ -427,7 +454,7 @@ section{
    .rpwwt-post-title{
        font-size: 28px;
        color: #c77171;
-       text-decoration: underline;
+       
    }
   
 .nf-form-content {
@@ -462,14 +489,41 @@ section{
     display: none;
 }
 
+.page-sisu{
+    font-size: 42px;
+}
+
+.su-gmap {
+    height: 500px;
+    width: 500px;
+}
+
 
 }
+
 
 @media only screen and (max-width: 744px){
 
     #hamburger{
         font-size: 40px;
     }
+
+    #menu a {
+        
+        padding: 20px 8px 8px -100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #D79F9F;
+        display: flex;
+        transition: 0.3s;
+      }
+
+      .closebtn {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        margin-left: 50px;
+      }
 
     section h2{
         font-size: 24px;
@@ -524,7 +578,6 @@ section{
         font-size: 13px;
     }
 }
-
 
 
 
