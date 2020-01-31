@@ -38,10 +38,12 @@
         </div>
     </section>
 
-
-   
-
-    </div>
+    <div class="flag-container">
+   <input type="image" onclick="location.href='http://meloni-ilusalong.local/en/'" class="flags" src="https://i.imgur.com/UtoAnUF.png" alt="Submit Form" />
+   <input type="image" onclick="location.href='http://meloni-ilusalong.local/est/'" class="flags" src="https://i.imgur.com/Aa6aupq.png" alt="Submit Form" />
+   <input type="image" onclick="location.href='http://meloni-ilusalong.local/fin/'" class="flags" src="https://i.imgur.com/UUH5uth.png" alt="Submit Form" />
+   <input type="image" onclick="location.href='http://meloni-ilusalong.local/rus/'" class="flags" src="https://i.imgur.com/zVgY0lJ.png" alt="Submit Form" />
+   </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     </body>

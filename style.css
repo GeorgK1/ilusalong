@@ -181,6 +181,26 @@ section{
     margin-left: 20px;
 }
 
+/*Lipud keelte vahetamiseks*/
+
+.flags{
+    
+    margin: 15px;
+    height: 15%;
+    width: 15%;
+    
+}
+
+.flag-container{
+    background: #D79F9F;
+    
+    width: 25%;
+    z-index: 999;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
 
 /*Posituste stiil*/
 .uudised, 
