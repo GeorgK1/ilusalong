@@ -51,12 +51,12 @@ header{
     font-family: 'Poppins', sans-serif;
     padding: 20px 26px;
     font-size: 36px;
-    text-align: center;
+    
     transition: 0.4s;
     text-decoration: none;
 }
 
-li a:hover {
+#menu a:hover {
     text-decoration: underline;
     color: #D79F9F;
 }
@@ -168,9 +168,6 @@ section{
     
 }
 
-.rpwwt-post-title{
-    text-transform: capitalize;
-}
 
 .rpwwt-widget{
     padding: 0;
@@ -186,7 +183,7 @@ section{
 .flags{
     
     margin: 15px;
-    height: 15%;
+    height: 25%;
     width: 15%;
     
 }
@@ -200,6 +197,10 @@ section{
     position: fixed;
     display: flex;
     flex-direction: row;
+}
+
+.flag-container-mobile{
+    display: none;
 }
 
 /*Posituste stiil*/
@@ -225,7 +226,7 @@ section{
 
 .broneerimine{
     font-family: Poppins;
-    text-transform: capitalize !important
+    
 }
 
 .pealkirjad{
@@ -260,7 +261,7 @@ section{
     position: relative;
     font-family: Poppins;
     grid-column: 1 / span 2;
-    text-align: center;
+    
 }
 
 .intro input{
@@ -436,7 +437,7 @@ section{
     }
     #menu{
         background-color: #303036;     
-        text-align: right;
+        
         z-index: 100;
         height: 100%;
         top: 0;
@@ -455,27 +456,53 @@ section{
     #menu a {
         width: 100%;
         
-        padding: 20px 8px 8px -100px;
+        padding-left: 50px;
         text-decoration: none;
         font-size: 30px;
         color: #D79F9F;
-        display: flex;
+        
         transition: 0.3s;
       }
     #menu a:hover {
         color: #c77171;
    }
 
-   .pakkumised, .uudised, .broneerimine {
-       
-       padding-top: 15px;
+
+
+
+
+.flag-container-mobile{
+    
+    height: 5%;
+    background: #D79F9F;
+    z-index: 999;
+    bottom: 0;
+    
+    
+}
+
+
+.flags-mobile{
+    padding-left: 90px;
+    margin: 20px;
+    height: 7%;
+    
+    
+}
+
+
+.flag-container{
+    display: none;
+}
+.pakkumised, .uudised, .broneerimine {
+    padding-top: 15px;
    }
 
-   .rpwwt-post-title{
-       font-size: 28px;
-       color: #c77171;
+.rpwwt-post-title{
+    font-size: 28px;
+    color: #c77171;
        
-   }
+}
   
 .nf-form-content {
     font-size: 24px;
@@ -510,13 +537,11 @@ section{
 }
 
 .page-sisu{
-    font-size: 42px;
+    font-size: 32px;
+    letter-spacing: 0.1em;
 }
 
-.su-gmap {
-    height: 500px;
-    width: 500px;
-}
+
 
 
 }

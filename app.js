@@ -40,11 +40,54 @@
           var marker = new google.maps.Marker({position: melon, map: map});
         }
             
+        
+        $(function() {
+            est();
+        })
+
+        function est(){
+          $(".estonian").css("display", "block");
+          $(".english").css("display", "none");
+          $(".finnish").css("display", "none");
+          $(".russian").css("display", "none");
+          
+        }
+
+       
+
+        function eng(){
+          $(".english").css("display", "block");
+          $(".estonian").css("display", "none");
+          $(".finnish").css("display", "none");
+          $(".russian").css("display", "none");
+          $(".form").html("<?php echo do_shortcode('[ninja_form id=2 title=false]'); ?>");
+          
+        }
+
+        function fin(){
+          $(".finnish").css("display", "block");
+          $(".english").css("display", "none");
+          $(".estonian").css("display", "none");        
+          $(".russian").css("display", "none");
+        }
+
+        function rus(){
+          $(".russian").css("display", "block");
+          $(".english").css("display", "none");
+          $(".estonian").css("display", "none");        
+          $(".finnish").css("display", "none");
+        }
+
+
+
         $("a[href='#logo']").click(function() {
           $("html, body").animate({ scrollTop: 0 }, "slow");
           return false;
         });
       
+    
+
+
         function openNav() {
           document.getElementById("menu").style.width = "200px";
           document.getElementById("main").style.marginLeft = "200px";
