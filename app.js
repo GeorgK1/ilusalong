@@ -7,6 +7,11 @@
 
  
        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+       var x=document.getElementById("menu");
+       var y=document.getElementById("main");
+       
+       
+
 
        if(!isMobile){
        var prevScrollpos = window.pageYOffset;
@@ -89,10 +94,22 @@
 
 
         function openNav() {
-          document.getElementById("menu").style.width = "200px";
-          document.getElementById("main").style.marginLeft = "200px";
-        }
+          var k=document.getElementsByClassName("fa fa-bars");
+        
 
-        function closeNav() {
-          document.getElementById("menu").style.width = "0";
-        }
+        if (isMobile) {
+          x.style.width = "75%";
+          x.style.marginLeft = "50%";
+          $("#closebtn").css("display", "block");
+          $(".icon").css("display", "none");
+
+        } 
+
+      }
+
+      function closeNav(){
+        
+        $(".icon").css("display", "block");
+        $("#closebtn").css("display", "none");
+        x.style.width = "0";
+      }
