@@ -73,20 +73,6 @@ header{
 }
 
 
-#post-sisu{
-    font-family: Poppins;
-    min-height: 45%;
-    
-}
-
-#pealkiri{
-    font-family: Poppins;
-    text-transform: capitalize;
-    padding-top: 30%;
-  
-}
-
-
 .page-sisu{
     display: grid;
     grid-template-columns: 50% auto;
@@ -381,7 +367,6 @@ section{
 
 #hamburger, #closebtn{
     display:none;
-    
 }
 
 /*Responsive*/
@@ -496,8 +481,6 @@ section{
     float: right;
     margin: 15px;
     height: 25%;
-    
-    
 }
 
 

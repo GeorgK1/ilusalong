@@ -10,7 +10,7 @@
        var x=document.getElementById("menu");
        var y=document.getElementById("main");
        
-       
+      var j = jQuery.noConflict();
 
 
        if(!isMobile){
@@ -18,13 +18,13 @@
         window.onscroll = function() {
           var currentScrollPos = window.pageYOffset;
           if (prevScrollpos > currentScrollPos) {
-           $(".menu").css({"height": "20%"});
-           $("#logo").css({"height": "20%"});
-           $(".list > a").css({"font-size": "36px"})
+           j(".menu").css({"height": "20%"});
+           j("#logo").css({"height": "20%"});
+           j(".list > a").css({"font-size": "36px"})
           } else {
            
-           $("#logo").css({"height": "20%"});
-           $(".list > a").css({"font-size": "28px"})
+           j("#logo").css({"height": "20%"});
+           j(".list > a").css({"font-size": "28px"})
           }
           prevScrollpos = currentScrollPos;
         }
@@ -46,47 +46,47 @@
         }
             
         
-        $(function() {
+        j(function() {
             est();
         })
 
         function est(){
-          $(".estonian").css("display", "block");
-          $(".english").css("display", "none");
-          $(".finnish").css("display", "none");
-          $(".russian").css("display", "none");
+          j(".estonian").css("display", "block");
+          j(".english").css("display", "none");
+          j(".finnish").css("display", "none");
+          j(".russian").css("display", "none");
           
         }
 
        
 
         function eng(){
-          $(".english").css("display", "block");
-          $(".estonian").css("display", "none");
-          $(".finnish").css("display", "none");
-          $(".russian").css("display", "none");
-          $(".form").html("<?php echo do_shortcode('[ninja_form id=2 title=false]'); ?>");
+          j(".english").css("display", "block");
+          j(".estonian").css("display", "none");
+          j(".finnish").css("display", "none");
+          j(".russian").css("display", "none");
+          
           
         }
 
         function fin(){
-          $(".finnish").css("display", "block");
-          $(".english").css("display", "none");
-          $(".estonian").css("display", "none");        
-          $(".russian").css("display", "none");
+          j(".finnish").css("display", "block");
+          j(".english").css("display", "none");
+          j(".estonian").css("display", "none");        
+          j(".russian").css("display", "none");
         }
 
         function rus(){
-          $(".russian").css("display", "block");
-          $(".english").css("display", "none");
-          $(".estonian").css("display", "none");        
-          $(".finnish").css("display", "none");
+          j(".russian").css("display", "block");
+          j(".english").css("display", "none");
+          j(".estonian").css("display", "none");        
+          j(".finnish").css("display", "none");
         }
 
 
 
-        $("a[href='#logo']").click(function() {
-          $("html, body").animate({ scrollTop: 0 }, "slow");
+        j("a[href='#logo']").click(function() {
+          j("html, body").animate({ scrollTop: 0 }, "slow");
           return false;
         });
       
@@ -100,8 +100,8 @@
         if (isMobile) {
           x.style.width = "75%";
           x.style.marginLeft = "50%";
-          $("#closebtn").css("display", "block");
-          $(".icon").css("display", "none");
+          j("#closebtn").css("display", "block");
+          j(".icon").css("display", "none");
 
         } 
 
@@ -109,7 +109,7 @@
 
       function closeNav(){
         
-        $(".icon").css("display", "block");
-        $("#closebtn").css("display", "none");
+        j(".icon").css("display", "block");
+        j("#closebtn").css("display", "none");
         x.style.width = "0";
       }

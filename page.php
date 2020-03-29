@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 <?php get_header();?>
 <input class="navigation" type="button" onclick="location.href='http://meloni-ilusalong.local';" value=" < Tagasi avalehele">
 <div class="pealkirjad">
@@ -17,6 +18,9 @@
 
  
 </div>
- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
 <div class="page-footer"><?php get_footer();?></div>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
